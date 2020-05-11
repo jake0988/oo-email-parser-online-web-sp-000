@@ -9,7 +9,7 @@ attr_accessor :emails
 
   def parse
     a = @email.split(/, | /)
-    binding.pry
+  
   end
   a
 end
