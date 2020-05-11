@@ -9,9 +9,9 @@ attr_accessor :emails
 
   def parse
     a = @email.split(/, | /)
-  
-  end
   a
+  end
+
 end
 
 # # Build a class EmailParser that accepts a string of unformatted
