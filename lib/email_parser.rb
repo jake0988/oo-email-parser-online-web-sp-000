@@ -11,6 +11,7 @@ attr_accessor :emails
     a = @email.split(/, | /)
     binding.pry
   end
+  a
 end
 
 # # Build a class EmailParser that accepts a string of unformatted
