@@ -8,8 +8,8 @@ attr_accessor :emails
   end
 
   def parse
-    a = @email.split(/, | /).uniq!
-
+    a = @email.split(/, | /)
+a = a.uniq!
 
   a
 
