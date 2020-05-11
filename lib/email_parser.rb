@@ -9,7 +9,7 @@ attr_accessor :emails
 
   def parse
     a = @email.split(/, | /)
-a = a.uniq!
+# a = a.uniq!
 
   a
 
