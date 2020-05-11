@@ -9,14 +9,10 @@ attr_accessor :emails
 
   def parse
     a = @email.split(/, | /).uniq!
-    array_two.map do |e|
-        i = array_two.count(e)
-          if i > 1
-          array_two << array_two.delete(e)
-          end
-      end
-  array_two
-end
+
+
+  a
+
   end
 
 end
